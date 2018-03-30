@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutTomasRito", "CheckoutTomasRito\CheckoutTomasRito.csproj", "{05CBC746-0052-46F7-AAD4-3B8D759217DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutTomasRito.Tests", "CheckoutTomasRito.Tests\CheckoutTomasRito.Tests.csproj", "{92812289-EE20-4D24-8699-4BBB069FE674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05CBC746-0052-46F7-AAD4-3B8D759217DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CBC746-0052-46F7-AAD4-3B8D759217DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CBC746-0052-46F7-AAD4-3B8D759217DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CBC746-0052-46F7-AAD4-3B8D759217DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92812289-EE20-4D24-8699-4BBB069FE674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92812289-EE20-4D24-8699-4BBB069FE674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92812289-EE20-4D24-8699-4BBB069FE674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92812289-EE20-4D24-8699-4BBB069FE674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
