@@ -3,8 +3,7 @@ namespace CheckoutTomasRito.DTO
 {
     public class CartItem
     {
-        public CartItem()
-        {
-        }
+        public int itemId { get; set; }
+        public int quantity { get;  set; }
     }
 }
