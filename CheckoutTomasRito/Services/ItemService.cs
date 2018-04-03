@@ -48,9 +48,16 @@ namespace CheckoutTomasRito.Services
 
 			var requestedItem = shoppingCart.items.Where(w => w.itemId == id).FirstOrDefault();
 
-            requestedItem.quantity = quantity;
-
-            _shoppingCartRepo.Save(shoppingCart);
+            // item doesn't exist -> add it
+            if (requestedItem == null)
+            {
+                AddItem(id, quantity);
+            }
+            else
+            {
+                requestedItem.quantity = quantity;
+                _shoppingCartRepo.Save(shoppingCart);
+            }
         }
 
         public void RemoveItem(int id)
